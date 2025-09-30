@@ -64,12 +64,25 @@ Foi explorada a capacidade dos algoritmos de encontrar agrupamentos naturais nos
     └── ...
 ```
 
-## 4. Como Executar o Projeto
+## 4. Dados e Como Executar
 
-1.  Clone este repositório.
-2.  Faça o upload da pasta `dados_json/` e do arquivo `sinais.csv` para uma pasta `Projeto_IA_Libras` no seu Google Drive.
-3.  Abra o arquivo `Versao_final.ipynb` no Google Colab.
-4.  Execute as células em sequência. O notebook irá gerar os arquivos de dados processados (`corpus_libras_longo.csv` e `corpus_libras_features.csv`) no mesmo diretório do Drive.
+Os dados utilizados neste projeto não estão incluídos diretamente neste repositório devido ao seu tamanho. Para executar o notebook, siga estes passos:
+
+1.  **Faça o download dos dados:** Baixe a pasta completa do projeto (contendo o `sinais.csv` e a pasta `dados_json`) através do seguinte link do Google Drive:
+    
+    **[Link para os Dados do Projeto](https://drive.google.com/drive/folders/1MYO2dzO0P6Iz8cejSQMvzzdCLAvkqFBL?usp=sharing)**
+    
+2.  **Estrutura de Pastas:** Faça o upload do conteúdo baixado para o seu próprio Google Drive, garantindo que a estrutura de pastas seja a seguinte:
+    
+    ```
+    /MyDrive/
+    └── Projeto_IA_Libras/
+        ├── sinais.csv
+        └── dados_json/
+            └── ... (todos os arquivos .json)
+    ```
+    
+3.  **Execute o Notebook:** Abra o arquivo `.ipynb` no Google Colab e execute as células em sequência. O notebook irá montar seu Drive e encontrar os arquivos automaticamente.
 
 ## 5. Resultados e Conclusões
 
