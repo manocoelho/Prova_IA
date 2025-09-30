@@ -1,7 +1,9 @@
 # Projeto de Classificação de Sinais de Libras com Machine Learning
 
 **Disciplina:** Paradigmas de aprendizagem de máquina
+
 **Instituição:** Universidade Federal da Paraíba (UFPB)
+
 **Autor:** [Antonio Rocha Lima Filho]
 
 ---
